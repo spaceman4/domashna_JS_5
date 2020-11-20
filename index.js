@@ -88,3 +88,7 @@ for (i = 0; i <= 10; i++) {
 if (fruits.constructor.name == "Array") {
   console.log("It's an array I guess?");
 }
+
+console.log(!(fruits instanceof Array));
+
+console.log(Array.isArray(fruits));
